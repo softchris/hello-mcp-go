@@ -1,8 +1,8 @@
-# Hello MCP 👋
+# Hello MCP Go 👋
 
-Welcome to the **Hello MCP** repository! 🚀 This project demonstrates how to build an MCP (Minecraft Protocol) server in Go. Whether you're a Go enthusiast or just curious about Minecraft server protocols, you're in the right place! 🛠️
+Welcome to the **Hello MCP Go** repository! 🚀 This project demonstrates how to build an MCP (Minecraft Protocol) server in Go. Whether you're a Go enthusiast or just curious about Minecraft server protocols, you're in the right place! 🛠️
 
----
+![Background of a gopher](./gopher.jpeg)
 
 ## What is this? 🤔
 
@@ -11,9 +11,18 @@ This repository showcases:
 - A simple and fun way to explore Minecraft Protocols 🎮.
 - A starting point for your own custom Minecraft server adventures! 🌟
 
----
 
-## Installation 🛠️
+## Tools 🌟
+
+- hello, takes the parameters Submitter and Content.
+- calculate, takes the parameters A and B. Example use is "calculate 2 and 4".
+
+## Quick Start 🚀
+
+- Clone
+- Install
+- Build 
+- Run
 
 1. Clone the repository:
     ```bash
@@ -27,38 +36,50 @@ This repository showcases:
     ```
 
 3. Build the project:
+ 
     ```bash
-    go build main.go
+    go build -ldflags="-s -w" -o server.exe main.go
+    ```    
+    or for Linux:
+    ```bash
+    go build -ldflags="-s -w" -o server main.go
     ```
 
----
+    You will use this later when you want to consume it from Visual Studio Code. 
 
-## How to Run 🏃‍♂️
 
-1. Start the server:
+1. Run the server:
     ```bash
     go run main.go
     ```
 
-2. Connect to the server using your Minecraft client. 🎉
-
----
-
 ### Consuming the Server with GitHub Copilot Agent Mode 🍴
 
-Place yourself in *mcp.json*, make sure the server has been built (right now it's adjusted).
+1. Place yourself in *mcp.json*, make sure the server has been built (right now it's adjusted).
 
-Adjust the "command" to point to the absolute path of your executable.
+1. Adjust the "command" to point to the absolute path of your executable.
 
-Open Copilot and select Agent in dropdown
+   ```json
+   {
+     "servers": {
+        "my-mcp-server-d73c20f3": {
+            "type": "stdio",
+            "command": "/path/to/your/executable"
+        }
+     }
+   }
+   ```
+   
 
-Select the play icon. 
+1. Open Copilot and select Agent in dropdown
 
-You should see the tool icon showing two tools.
+1. Select the play icon. 
 
-Test it with a phrase like so "calculate 2 and 4". This should present a button that invokes the tool on the server.
+   You should see the tool icon showing two tools.
 
----
+1. Test it with a phrase like so "calculate 2 and 4". This should present a button that invokes the tool on the server.
+
+![MCP Go conuming it via Visual Studio Code](./mcp-go.gif)
 
 ## Have Fun! 🎉
 
