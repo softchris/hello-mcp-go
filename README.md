@@ -2,7 +2,9 @@
 
 Welcome to the **Hello MCP Go** repository! 🚀 This project demonstrates how to build an MCP (Model Context Protocol) server in Go. Whether you're a Go enthusiast or just curious about MCP, you're in the right place! 🛠️
 
-![Background of a gopher](./gopher.jpeg)
+<div>
+    <img src="./gopher.jpeg" alt="Background of Gopher in a carrot field" width="600">
+</div>
 
 ## What is this? 🤔
 
