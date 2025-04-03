@@ -1,0 +1,8 @@
+{
+    "servers": {
+        "my-mcp-server-d73c20f3": {
+            "type": "stdio",
+            "command": "C:/Users/chnoring/Documents/dev/go-projects/hello-mcp/main.exe"
+        }
+    }
+}
