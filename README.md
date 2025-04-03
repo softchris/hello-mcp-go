@@ -8,8 +8,8 @@ Welcome to the **Hello MCP Go** repository! 🚀 This project demonstrates how t
 
 This repository showcases:
 - How to build an MCP server using Go 🐹.
-- A simple and fun way to explore Minecraft Protocols 🎮.
-- A starting point for your own custom Minecraft server adventures! 🌟
+- A simple and fun way to explore MCP Protocol 🎮.
+- A starting point for your own custom MCP server adventures! 🌟
 
 
 ## Tools 🌟
