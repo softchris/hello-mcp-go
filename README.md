@@ -1,6 +1,6 @@
 # Hello MCP Go 👋
 
-Welcome to the **Hello MCP Go** repository! 🚀 This project demonstrates how to build an MCP (Minecraft Protocol) server in Go. Whether you're a Go enthusiast or just curious about Minecraft server protocols, you're in the right place! 🛠️
+Welcome to the **Hello MCP Go** repository! 🚀 This project demonstrates how to build an MCP (Model Context Protocol) server in Go. Whether you're a Go enthusiast or just curious about MCP, you're in the right place! 🛠️
 
 ![Background of a gopher](./gopher.jpeg)
 
