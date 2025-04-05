@@ -52,7 +52,7 @@ This repository showcases:
 
 1. Run the server:
     ```bash
-    go run main.go
+    ./server
     ```
 
 ### Consuming the Server with GitHub Copilot Agent Mode 🍴
